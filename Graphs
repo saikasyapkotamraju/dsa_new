@@ -1,1 +1,2 @@
 1. Find if path exists in graph 
+DFS only for source component alone is enough no need for all the components. In source component if anywhere destination is present return true.
