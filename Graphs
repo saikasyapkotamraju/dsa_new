@@ -15,3 +15,6 @@ DFS for a single component involving source coordinates alone is enough. DFS job
 Should be processed level by level so use bfs not dfs. In bfs for each rotted orange cell offer all the fresh oranges surrounded 4 dimensionally by marking them rotted.
 7. 01 Matrix(leetcode 542)
 Should process level by level so use bfs. Add all zeros to queue at first. In result assign 0 to cells contain 0 and -1 to non zeros initially.
+8. Pacific Atlantic Water Flow (leetcode 417)
+Both dfs and bfs solutions are possible. Add cells reachable to pacific and atlantic at first. Use separate bfs for pacific and atlantic. At last ff a cell is 
+visited by both add it to result.
