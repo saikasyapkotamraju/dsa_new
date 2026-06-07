@@ -21,3 +21,5 @@ visited by both add it to result.
 9. Surrounding Regions (leetcode 130)
 Both bfs and dfs solutions are possible. Connected components similar to so proceed dfs. Start with all the four edges wherever zeros are present, those connected
 components cant be captured.
+10. Number of Enclaves(leetcode 1020)
+Both bfs and dfs are possible. Connected components similar so proceed dfs. 
