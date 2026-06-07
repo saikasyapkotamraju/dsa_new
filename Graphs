@@ -18,3 +18,6 @@ Should process level by level so use bfs. Add all zeros to queue at first. In re
 8. Pacific Atlantic Water Flow (leetcode 417)
 Both dfs and bfs solutions are possible. Add cells reachable to pacific and atlantic at first. Use separate bfs for pacific and atlantic. At last ff a cell is 
 visited by both add it to result.
+9. Surrounding Regions (leetcode 130)
+Both bfs and dfs solutions are possible. Connected components similar to so proceed dfs. Start with all the four edges wherever zeros are present, those connected
+components cant be captured.
