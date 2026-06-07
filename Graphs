@@ -1,2 +1,15 @@
 1. Find if path exists in graph 
-DFS only for source component alone is enough no need for all the components. In source component if anywhere destination is present return true.
+DFS only for source component alone is enough no need for all the components. In source component if anywhere destination is present return true. DFS job is to 
+search if the destination node is present in the component.
+2. Number of provinces
+DFS for all the nodes. Count number of dfs calls which gives number of provinces. DFS job is to mark entire component visited.
+3. Number of islands(grid given)
+No adj list. DFS for all the cells in grid. Each cell iterate four directions inside dfs if cell is 1 and not visited. DFS job is to mark entire component visited.
+Optimisation : no separate visited array, use grid itself to mark visited.
+4. Max Area Of Land (leetcode 695)
+No adj list. DFS for all the cells in grid. Each cell iterate four directions inside dfs if cell is 1 and not visited. DFS job not only to mark the entire component
+visited but to return some information about the component which is its area(int). 
+5. Flood fill(leetcode 733)
+DFS for a single component involving source coordinates alone is enough. DFS job is to change color of the entire component.
+6. Rotting Oranges(leetcode 994)
+Should be processed level by level so use bfs not dfs. In bfs for each rotted orange cell offer all the fresh oranges surrounded 4 dimensionally by marking them rotted.
