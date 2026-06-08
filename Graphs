@@ -23,3 +23,8 @@ Both bfs and dfs solutions are possible. Connected components similar to so proc
 components cant be captured.
 10. Number of Enclaves(leetcode 1020)
 Both bfs and dfs are possible. Connected components similar so proceed dfs. 
+11. Redundant Connection (leetcode 684)
+Sol1 : Before adding each edge to the graph, check if u can reach v. If yes then that is the redundant node. If not add it to the graph. Need to maintain
+separate visited array for each dfs query.
+Sol2 : Using DSU. Core idea is in every component, each node should eventually point to same root. Then it will be easy to identify parents of two nodes. 
+If parents are same then edge already exists. If nodes in two connected components have edge then make root of one component to point root of another component. 
