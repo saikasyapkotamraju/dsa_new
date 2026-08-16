@@ -17,3 +17,4 @@ Prerequisites can also be indirect. If course a is a prerequisite of course b, a
 You are also given an array queries where queries[j] = [uj, vj]. For the jth query, you should answer whether course uj is a prerequisite of course vj or not.
 Return a boolean array answer, where answer[j] is the answer to the jth query.
 5. Leetcode 2115
+6. Intellij Ide Custom Problem By AI TopologicalSortPractice class name 
